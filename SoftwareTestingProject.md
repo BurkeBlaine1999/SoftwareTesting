@@ -62,6 +62,7 @@ There are several taks to be done in the project.
 
 ### Tactics
 
+We will divided into two teams , one team taking in game testing and one taking in menu testing. We will then have daily scrum meetings to ensure progress is being made. We will use user acceptance testing  and white box testing methods as if a wider audience uses it we are more likely to find errors/bugs.
 
 Tactics
 List here how you will accomplish the items that you have listed in the "Scope" section. For
@@ -69,15 +70,17 @@ example, if you have mentioned that you will be testing the existing interfaces,
 procedures you would follow to notify the key people to represent their respective areas, as well as
 allotting time in their schedule for assisting you in accomplishing your activity?
 
-
-
 ## 4.0 TESTING STRATEGY
-Describe the overall approach to testing. For each major group of features or feature combinations,
-specify the approach which will ensure that these feature groups are adequately tested. Specify the
-major activities, techniques, and tools which are used to test the designated groups of features.
-The approach should be described in sufficient detail to permit identification of the major testing
-tasks and estimation of the time required to do each one. 
+
+Our testing strategy is to attempt to rid the game of bugs/errors so we can release our game to the public and receive feedback.
+We will be testing all the main aspects and functions of the game as stated in the scope (3.0).
+
+We will be using several types of testing such as Unit Testing , System and Integration Testing ,Performance and Stress Testing,User Acceptance Testing , Batch Testing,Automated Regression Testing,Beta Testing Participants.
+
 ### 4.1 Unit Testing
+
+
+
 Definition:
 Specify the minimum degree of comprehensiveness desired. Identify the techniques which will be
 used to judge the comprehensiveness of the testing effort (for example, determining which
