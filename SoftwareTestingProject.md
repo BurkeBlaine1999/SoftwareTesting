@@ -5,50 +5,50 @@
 ## 1.0 INTRODUCTION
 
 The product we are testing is called 'The Pixel Wizard'.
-It is a 2D game inspired from games such as Shovel Knight and skyrim. In the game the player will play as a Pixel Wizard who will have to navigate his/her way through increasingly difficult levels featuring new enemies and boss stages. 
+It is a 2D game inspired from games such as Shovel Knight and Skyrim. In the game the player will play as a Pixel Wizard who will have to navigate his/her way through increasingly difficult levels featuring new enemies and boss stages. 
 
 > The players weapon will be magic fireballs that they will shoot using Left mouse click or the R key. On mobile it will be done using a dedicated button.
 
 > The player will have 5 HP meaning they can be hit 5 times before dying.
 
-> Each level will have health pickups in order for the player to regenerate health increasing the players survivability.
+> Each level will have health pickups for the player to regenerate health increasing the players survivability.
 
-> The player will be able to pause the game at any time and be able to edit game settings , exit , save and resume the game.
+> The player will be able to pause the game at any time and be able to edit game settings, exit , save and resume the game.
 
-> The player will be able to move , jump and crouch using the generic 'WASD' controls. There will be dedicated buttons for the movement on the mobile verison.
+> The player will be able to move, jump and crouch using the generic 'WASD' controls. There will be dedicated buttons for the movement on the mobile version.
 
 
 
 ## 2.0 OBJECTIVES AND TASKS
 ### 2.1 Objectives
 
-We devided our team into small groups and assigned them all different tasks as listed in section 2.2. We will use microsoft teams and github to communicate and share work. With our service agreement we agreed to have it due by the end of 2020.
+We divided our team into small groups and assigned them all different tasks as listed in section 2.2. We will use Microsoft teams and GitHub to communicate and share work. With our service agreement we agreed to have it due by the end of 2020.
 
 ### 2.2 Tasks
 
-There are several taks to be done in the project.
+There are several tasks to be done in the project.
 
 * Testing the UI to ensure it functions as expected.
-* Testing the enemies in game to ensure they function as expected. e.g. Follow the player , Attack the player
-* Post testing the game by releasing the game as a beta to the public , granting us user acceptance testing. This black box testing allows us to get more views on the game.
+* Testing the enemies in game to ensure they function as expected. e.g. Follow the player, Attack the player
+* Post testing the game by releasing the game as a beta to the public, granting us user acceptance testing. This black box testing allows us to get more views on the game.
 * Set up a bug reporting system for the beta in order to get feedback from the public.
 
 ## 3.0 SCOPE
 ### General
 
-*In game..*
+*In game...*
 
 >Upon picking up health items the players health will be increased if not on full health.
 
->If the player touches an enemy or is hit by a projectile they will receive damage.
+>If the player touches an enemy or is hit by a projectile, they will receive damage.
 
->If the player gets to 0 HP they will receive a Game over screen.
+>If the player gets to 0 HP, they will receive a Game over screen.
 
 >The players controls will work as intended.
 
->Upon pressing the fire button the player will fire a fire ball projectile instantly.
+>Upon pressing the fire button, the player will fire a fire ball projectile instantly.
 
-*In Menus..*
+*In Menus...*
 
 >Game exits when 'Quit' button is selected.
 
@@ -56,13 +56,13 @@ There are several taks to be done in the project.
 
 >When the pause button is selected the game freezes and displays the UI.
 
->When the resume button is pressed the game resumes and the pause menu disapears.
+>When the resume button is pressed the game resumes and the pause menu disappears.
 
 >When the 'save game' button is selected the games state is saved and can be reloaded.
 
 ### Tactics
 
-We will divided into two teams , one team taking in game testing and one taking in menu testing. We will then have daily scrum meetings to ensure progress is being made. We will use user acceptance testing  and white box testing methods as if a wider audience uses it we are more likely to find errors/bugs.
+We will be divided into two teams, one team taking in game testing and one taking in menu testing. We will then have daily scrum meetings to ensure progress is being made. We will use user acceptance testing and white box testing methods as if a wider audience uses it, we are more likely to find errors/bugs.
 
 Tactics
 List here how you will accomplish the items that you have listed in the "Scope" section. For
@@ -75,7 +75,7 @@ allotting time in their schedule for assisting you in accomplishing your activit
 Our testing strategy is to attempt to rid the game of bugs/errors so we can release our game to the public and receive feedback.
 We will be testing all the main aspects and functions of the game as stated in the scope (3.0).
 
-We will be using several types of testing such as Unit Testing , System and Integration Testing ,Performance and Stress Testing,User Acceptance Testing , Batch Testing,Automated Regression Testing,Beta Testing Participants.
+We will be using several types of testing such as Unit Testing , System and Integration Testing ,Performance and Stress Testing, User Acceptance Testing , Batch Testing, Automated Regression Testing, Beta Testing Participants.
 
 ### 4.1 Unit Testing
 
@@ -93,11 +93,11 @@ We will begin by the Menu team going first and building the menu. Then once fini
 
 ### 4.3 Performance and Stress Testing
 
-We will use stress testing to see how far the game can be pushed before it breaks. Our in game team will carry this activity out as in game will be the most intensive part of the game with many seperate entities and projectiles. This is very important as it will help us know if our code is optimized or not.
+We will use stress testing to see how far the game can be pushed before it breaks. Our in-game team will carry this activity out as in game will be the most intensive part of the game with many separate entities and projectiles. This is very important as it will help us know if our code is optimized or not.
 
 ### 4.4 User Acceptance Testing
 
-User acceptance will be used to get another insight to our game . It will be granted to people such as other staff members. 
+User acceptance will be used to get another insight to our game. It will be granted to people such as other staff members. 
 This will help us confirm that the game is ready for beta testing. 
 
 A member from either team will be keeping track of this and will be in charge of receiving feedback.
@@ -118,40 +118,40 @@ With beta testing we will be releasing it to several popular streamers and figur
 ## 5.0 TEST SCHEDULE
 
 **Unit Testing : 5 Days**
-We have alloted 5 days to Unit testing as it is vital all individual components function as intended.
+We have allotted 5 days to Unit testing as it is vital all individual components function as intended.
 
 
-**System and Integration Testing : 5 days**
-We have alloted 4 days to system and integration testing as we appreciate it is tedious work to assemble an entire application.
+**System and Integration Testing: 5 days**
+We have allotted 4 days to system and integration testing as we appreciate it is tedious work to assemble an entire application.
 
-**Performance and Stress Testing : 3 days**
-We have alloted 3 days to Performance and Stress Testing because it should not take too long to test this aspect and also the game should not be too intensive due to its pixel art style making the game less intensive.
-
-
-**User Acceptance Testing : 8 days**
-We have alloted 8 days to User Acceptance Testing as we need to take into account that people may not sit down and play the game immediately and may have busy schedules.
+**Performance and Stress Testing: 3 days**
+We have allotted 3 days to Performance and Stress Testing because it should not take too long to test this aspect and the game should not be too intensive due to its pixel art style making the game less intensive.
 
 
-**Batch Testing : 3 days**
-Bathc testing should only take 3 days due to it being a fairly fast process when having multiple members actively doing it.
+**User Acceptance Testing: 8 days**
+We have allotted 8 days to User Acceptance Testing as we need to take into account that people may not sit down and play the game immediately and may have busy schedules.
 
-**Automated Regression Testing : If something is changed**
-Automated Regression Testing has no time limit as once anything has been updated it must be tested imeediatly to ensure it has not began making errors throughout the application.
 
-**Beta Testing Participants : 20 days**
-We have alloted 20 days to out beta test as again people may be busy and cannot play it immediatly , we also want people to have time to play and complete the beta. It is also important we dont rush people into playing it as this may impact the user experience.
+**Batch Testing: 3 days**
+Batch testing should only take 3 days due to it being a fairly fast process when having multiple members actively doing it.
+
+**Automated Regression Testing: If something is changed**
+Automated Regression Testing has no time limit as once anything has been updated it must be tested immediately to ensure it has not begun making errors throughout the application.
+
+**Beta Testing Participants: 20 days**
+We have allotted 20 days to out beta test as again people may be busy and cannot play it immediately, we also want people to have time to play and complete the beta. It is also important we don’t rush people into playing it as this may impact the user experience.
 We would prefer them to take their time and enjoy the game. 
 
 
 ## 6.0 CONTROL PROCEDURES
 
-If any problems occur thoughout the testing proccess we would take note of the problem and forward it to the test leader who would then pass the information onto the development team. Once the devlopers have fixed the issue the testers will once again test the project.
-This proccess wil reoccur until the issue is resolved.
+If any problems occur throughout the testing process, we would take note of the problem and forward it to the test leader who would then pass the information onto the development team. Once the developers have fixed the issue the testers will once again test the project.
+This process will reoccur until the issue is resolved.
 
 
 ## 7.0 FEATURES TO BE TESTED
 
-We will be testing many features in the game such as..
+We will be testing many features in the game such as...
 * Player mechanics 
 * Enemy mechanics
 * Game physics
@@ -177,66 +177,66 @@ We have several team members involved in the creation of the game.
 Our Project leader is John Delaney. He is responsible for keeping our team on track and within the provided time scale.
 He will also be hosting the daily scrum meetings.
  
-### <div align="center"> Menu Team  </div>
+### <div align="center"> Menu Team </div>
 
 <hr>
 
 *Lauren Smith*
 * Team Leader
-* Responsible for System and integration testing and  Unit testing and Performance.
+* Responsible for System and integration testing and Unit testing and Performance.
 * Working on System and integration testing and Unit testing.
 
 <hr>
 
 *David Burke*
 * Responsible for Batch Testing and Beta Testing.
-* Working on Batch Testing , Beta Testing and User acceptance testing.
+* Working on Batch Testing, Beta Testing and User acceptance testing.
 
 <hr>
 
 *Noel Keogh*
 * Responsible for Batch Testing and Beta Testing.
-* Working on Batch Testing , Beta Testing and Unit testing.
+* Working on Batch Testing, Beta Testing and Unit testing.
 
 <hr>
 
 *Thomas Quinn*
-* Responsible for Automated Regression Testing and User Acceptance Testing .
-* Working on User Acceptance Testing , Unit testing and system integration testing.
+* Responsible for Automated Regression Testing and User Acceptance Testing.
+* Working on User Acceptance Testing, Unit testing and system integration testing.
 <hr>
 
 *Eamonn Joyce*
-* Responsible for Performance and Stress Testing .
-* Working on User Performance and Stress Testing and Unit testing .
+* Responsible for Performance and Stress Testing.
+* Working on User Performance and Stress Testing and Unit testing.
 
-### <div align="center"> Game Team  </div>
+### <div align="center"> Game Team </div>
 
 <hr>
 
 *Aaron Kenny* 
 * Team Leader
-* Responsible for Automated Regression Testing and User Acceptance Testing .
-* Working on User Acceptance Testing , Unit testing and system integration testing.
+* Responsible for Automated Regression Testing and User Acceptance Testing.
+* Working on User Acceptance Testing, Unit testing and system integration testing.
 <hr>
 
 *Ciaran Shortt* 
-* Responsible for System and integration testing and  Unit testing and Performance.
+* Responsible for System and integration testing and Unit testing and Performance.
 * Working on System and integration testing and Unit testing.
 <hr>
 
 *Arnas Moran* 
 * Responsible for Batch Testing and Beta Testing.
-* Working on Batch Testing , Beta Testing and User acceptance testing.
+* Working on Batch Testing, Beta Testing and User acceptance testing.
 <hr>
 
 *Joe Loughanne* 
-* Responsible for Performance and Stress Testing .
-* Working on User Performance and Stress Testing and Unit testing .
+* Responsible for Performance and Stress Testing.
+* Working on User Performance and Stress Testing and Unit testing.
 <hr>
 
 *Haleigh Greaney*
-* Responsible for System and integration testing and Performance and Stress Testing .
-* Working on System and integration testing and Performance , Stress Testing and batch testing .
+* Responsible for System and integration testing and Performance and Stress Testing.
+* Working on System and integration testing and Performance, Stress Testing and batch testing .
 
 
 
@@ -262,25 +262,15 @@ may include developers, testers, operations staff, testing services, etc.
 
 ## 11.0 RISKS/ASSUMPTIONS
 
-Some of the risks involved is our time scale allotted being too eager. We may need to delay the release of the game in order to provide more time to the teams to ensure everythig is done properly and not rushed through.
+Some of the risks involved is our time scale allotted being too eager. We may need to delay the release of the game in order to provide more time to the teams to ensure everything is done properly and not rushed through.
 
 
 ## 12.0 TOOLS
 We used several tools in the making of this project.
 
 ### Bugzilla 
-We used bugzilla for testing as it is useful for tracking bugs and issues.
+We used Bugzilla for testing as it is useful for tracking bugs and issues.
 
 ### Ranorex
 Ranorex is a GUI test automation framework used for the testing of web-based, desktop, and mobile applications.
-
-
-
-
-
-
-
-
-
-
 
