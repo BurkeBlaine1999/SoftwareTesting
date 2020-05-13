@@ -272,7 +272,7 @@ We used several tools in the making of this project.
 We used bugzilla for testing as it is useful for tracking bugs and issues.
 
 ### Ranorex
-Ranorex is useful for bug reporting.
+Ranorex is a GUI test automation framework used for the testing of web-based, desktop, and mobile applications.
 
 
 
