@@ -171,8 +171,15 @@ We will not be testing out art assets as they have been thoroughly examined by o
 
 
 ## 9.0 RESOURCES/ROLES & RESPONSIBILITIES
+
+We have several team members involved in the creation of the game. 
+
+Our Project leader is John Delaney. He is responsible for keeping our team on track and within the provided time scale.
+He will also be hosting the daily scrum meetings.
  
-**Menu Team**
+### <div align="center"> Menu Team  </div>
+
+<hr>
 
 *Lauren Smith*
 * Team Leader
@@ -202,12 +209,39 @@ We will not be testing out art assets as they have been thoroughly examined by o
 * Responsible for Performance and Stress Testing .
 * Working on User Performance and Stress Testing and Unit testing .
 
-**Game Team**
+### <div align="center"> Game Team  </div>
 
-Aaron Kenny - In Game Team
-Ciaran Shortt -In Game Team
-Arnas Moran -In Game Team
-Joe Loughanne - In Game Team
+<hr>
+
+*Aaron Kenny* 
+* Team Leader
+* Responsible for Automated Regression Testing and User Acceptance Testing .
+* Working on User Acceptance Testing , Unit testing and system integration testing.
+<hr>
+
+*Ciaran Shortt* 
+* Responsible for System and integration testing and  Unit testing and Performance.
+* Working on System and integration testing and Unit testing.
+<hr>
+
+*Arnas Moran* 
+* Responsible for Batch Testing and Beta Testing.
+* Working on Batch Testing , Beta Testing and User acceptance testing.
+<hr>
+
+*Joe Loughanne* 
+* Responsible for Performance and Stress Testing .
+* Working on User Performance and Stress Testing and Unit testing .
+<hr>
+
+*Haleigh Greaney*
+* Responsible for System and integration testing and Performance and Stress Testing .
+* Working on System and integration testing and Performance , Stress Testing and batch testing .
+
+
+
+
+
 
 
 Specify the staff members who are involved in the test project and what their roles are going to be
@@ -219,7 +253,7 @@ may include developers, testers, operations staff, testing services, etc.
 
 
 ## 10.0 SCHEDULES
-Identify the deliverable documents. You can list the following documents:
+
 - Test Plan
 - Test Cases
 - Test Incident Reports
@@ -227,10 +261,26 @@ Identify the deliverable documents. You can list the following documents:
 
 
 ## 11.0 RISKS/ASSUMPTIONS
-Identify the high-risk assumptions of the test plan. Specify contingency plans for each (for example,
-delay in delivery of test items might require increased night shift scheduling to meet the delivery
-date).
+
+Some of the risks involved is our time scale allotted being too eager. We may need to delay the release of the game in order to provide more time to the teams to ensure everythig is done properly and not rushed through.
 
 
 ## 12.0 TOOLS
-List the Automation tools you are going to use. List also the Bug tracking tool here. 
+We used several tools in the making of this project.
+
+### Bugzilla 
+We used bugzilla for testing as it is useful for tracking bugs and issues.
+
+### Ranorex
+Ranorex is useful for bug reporting.
+
+
+
+
+
+
+
+
+
+
+
