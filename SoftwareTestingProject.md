@@ -79,96 +79,137 @@ We will be using several types of testing such as Unit Testing , System and Inte
 
 ### 4.1 Unit Testing
 
+We will use unit testing in our app in order to ensure individual components function correctly.
+We will use this for the main mechanics of the game and upon an error being discovered it will be recorded and noted to our developers.
 
+Members from both the 'in game' team and the 'menu' team will partake in unit testing then some of our developers will write up test scripts for the application.
 
-Definition:
-Specify the minimum degree of comprehensiveness desired. Identify the techniques which will be
-used to judge the comprehensiveness of the testing effort (for example, determining which
-statements have been executed at least once). Specify any additional completion criteria (for
-example, error frequency). The techniques to be used to trace requirements should be specified.
-Participants:
-List the names of individuals/departments who would be responsible for Unit Testing.
-Methodology:
-Describe how unit testing will be conducted, including a description of tests to be carried out. Who
-will write the test scripts for the unit testing, what would be the sequence of events of Unit Testing
-and how will the testing activity take place?
 ### 4.2 System and Integration Testing
-Definition:
-List what is your understanding of System and Integration Testing for your project.
-Participants:
-Who will be conducting System and Integration Testing on your project? List the individuals that will
-be responsible for this activity.
-Methodology:
-Describe how System & Integration testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the unit testing, what would be sequence of events of
-System & Integration Testing, and how will the testing activity take place?
+
+This method involves us taking each component and combining them together one by one until they are all integrated. This way we will catch any errors and know where it is caused easily.
+
+Both teams will be using this method as it is a universal method of error checking.
+We will begin by the Menu team going first and building the menu. Then once finished the Game team can add the game onto the menu as the menu is required to get into the game.
+
 ### 4.3 Performance and Stress Testing
-Definition:
-List what is your understanding of Stress Testing for your project.
-Participants:
-Who will be conducting Stress Testing on your project? List the individuals that will be responsible
-for this activity.
-Methodology:
-Describe how Performance & Stress testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the testing, what would be sequence of events of
-Performance & Stress Testing, and how will the testing activity take place? 
+
+We will use stress testing to see how far the game can be pushed before it breaks. Our in game team will carry this activity out as in game will be the most intensive part of the game with many seperate entities and projectiles. This is very important as it will help us know if our code is optimized or not.
+
 ### 4.4 User Acceptance Testing
-Definition:
-The purpose of acceptance test is to confirm that the system is ready for operational use. During
-acceptance test, end-users (customers) of the system compare the system to its initial requirements.
-Participants:
-Who will be responsible for User Acceptance Testing? List the individuals' names and responsibility.
-Methodology:
-Describe how the User Acceptance testing will be conducted, including a description of tests to be
-carried out Who will write the test scripts for the testing, what would be sequence of events of User
-Acceptance Testing, and how will the testing activity take place?
+
+User acceptance will be used to get another insight to our game . It will be granted to people such as other staff members. 
+This will help us confirm that the game is ready for beta testing. 
+
+A member from either team will be keeping track of this and will be in charge of receiving feedback.
+
 ### 4.5 Batch Testing
+
+Wtih batch testing we will have several testers run and play the game several times in order to see how stable the game is and to see if it will crash or get any errors.
 ### 4.6 Automated Regression Testing
-Definition:
-Regression testing is the selective retesting of a system or component to verify that modifications
-have not caused unintended effects and that the system or component still works as specified in the
-requirements.
-Participants:
-Methodology:
+
+All team members will be using regression testing as it is vital to enusre that if you edit something that it does not break the application.
+
 ### 4.7 Beta Testing Participants:
-Methodology:
+With beta testing we will be releasing it to several popular streamers and figures to test it. This will be effective as the streamers will provide feedback on the game and also they would be streaming the game to a wide audience will provide a lot of feedback and will hopefully spread hype for the games release increasing profits.
 
 
 
 
 ## 5.0 TEST SCHEDULE
-Include test milestones identified in the Software Project Schedule as well as all item transmittal
-events.
-Define any additional test milestones needed. Estimate the time required to do each testing task.
-Specify the schedule for each testing task and test milestone. For each testing resource (that is,
-facilities, tools, and staff), specify its periods of use.
 
+**Unit Testing : 5 Days**
+We have alloted 5 days to Unit testing as it is vital all individual components function as intended.
+
+
+**System and Integration Testing : 5 days**
+We have alloted 4 days to system and integration testing as we appreciate it is tedious work to assemble an entire application.
+
+**Performance and Stress Testing : 3 days**
+We have alloted 3 days to Performance and Stress Testing because it should not take too long to test this aspect and also the game should not be too intensive due to its pixel art style making the game less intensive.
+
+
+**User Acceptance Testing : 8 days**
+We have alloted 8 days to User Acceptance Testing as we need to take into account that people may not sit down and play the game immediately and may have busy schedules.
+
+
+**Batch Testing : 3 days**
+Bathc testing should only take 3 days due to it being a fairly fast process when having multiple members actively doing it.
+
+**Automated Regression Testing : If something is changed**
+Automated Regression Testing has no time limit as once anything has been updated it must be tested imeediatly to ensure it has not began making errors throughout the application.
+
+**Beta Testing Participants : 20 days**
+We have alloted 20 days to out beta test as again people may be busy and cannot play it immediatly , we also want people to have time to play and complete the beta. It is also important we dont rush people into playing it as this may impact the user experience.
+We would prefer them to take their time and enjoy the game. 
 
 
 ## 6.0 CONTROL PROCEDURES
-Problem Reporting
-Document the procedures to follow when an incident is encountered during the testing process. If a
-standard form is going to be used, attach a blank copy as an "Appendix" to the Test Plan. In the
-event you are using an automated incident logging system, write those procedures in this section.
-Change Requests
-Document the process of modifications to the software. Identify who will sign off on the changes
-and what would be the criteria for including the changes to the current product. If the changes will
-affect existing programs, these modules need to be identified.
 
+If any problems occur thoughout the testing proccess we would take note of the problem and forward it to the test leader who would then pass the information onto the development team. Once the devlopers have fixed the issue the testers will once again test the project.
+This proccess wil reoccur until the issue is resolved.
 
 
 ## 7.0 FEATURES TO BE TESTED
-Identify all software features and combinations of software features that will be tested.
 
-
+We will be testing many features in the game such as..
+* Player mechanics 
+* Enemy mechanics
+* Game physics
+* Game mechanics
+* UI mechanics
+* Volume slider function
+* Save Game function
 
 ## 8.0 FEATURES NOT TO BE TESTED
-Identify all features and significant combinations of features which will not be tested and the
-reasons.
+
+There are not many features we will not be testing.
+
+**Game Assets**
+
+We will not be testing out art assets as they have been thoroughly examined by our art team.
 
 
 
 ## 9.0 RESOURCES/ROLES & RESPONSIBILITIES
+ 
+**Menu Team**
+
+*Lauren Smith*
+* Team Leader
+* Responsible for System and integration testing and  Unit testing and Performance.
+* Working on System and integration testing and Unit testing.
+
+<hr>
+
+*David Burke*
+* Responsible for Batch Testing and Beta Testing.
+* Working on Batch Testing , Beta Testing and User acceptance testing.
+
+<hr>
+
+*Noel Keogh*
+* Responsible for Batch Testing and Beta Testing.
+* Working on Batch Testing , Beta Testing and Unit testing.
+
+<hr>
+
+*Thomas Quinn*
+* Responsible for Automated Regression Testing and User Acceptance Testing .
+* Working on User Acceptance Testing , Unit testing and system integration testing.
+<hr>
+
+*Eamonn Joyce*
+* Responsible for Performance and Stress Testing .
+* Working on User Performance and Stress Testing and Unit testing .
+
+**Game Team**
+
+Aaron Kenny - In Game Team
+Ciaran Shortt -In Game Team
+Arnas Moran -In Game Team
+Joe Loughanne - In Game Team
+
+
 Specify the staff members who are involved in the test project and what their roles are going to be
 (for example, Mary Brown (User) compile Test Cases for Acceptance Testing). Identify groups
 responsible for managing, designing, preparing, executing, and resolving the test activities as well as
