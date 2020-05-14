@@ -238,20 +238,6 @@ He will also be hosting the daily scrum meetings.
 * Responsible for System and integration testing and Performance and Stress Testing.
 * Working on System and integration testing and Performance, Stress Testing and batch testing .
 
-
-
-
-
-
-
-Specify the staff members who are involved in the test project and what their roles are going to be
-(for example, Mary Brown (User) compile Test Cases for Acceptance Testing). Identify groups
-responsible for managing, designing, preparing, executing, and resolving the test activities as well as
-related issues. Also identify groups responsible for providing the test environment. These groups
-may include developers, testers, operations staff, testing services, etc.
-
-
-
 ## 10.0 SCHEDULES
 
 - Test Plan
